@@ -2,8 +2,6 @@
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge\&logo=google-chrome)](https://your-demo-link.com)
 
-![LinkedIn Clone Demo](linkedin-demo.gif)
-
 A **LinkedIn Clone web application** built using **React.js, Redux, Firebase, and Styled Components**.
 This project replicates core LinkedIn features such as authentication, creating posts, sharing media, and interacting with posts.
 
@@ -13,17 +11,7 @@ This project replicates core LinkedIn features such as authentication, creating 
 
 Coming Soon...
 
-*(The project will be deployed soon)*
-
----
-
-## 📸 Project Preview
-
-### Login Page
-![Login Page](login-page.png)
-
-### Feed Page
-![Feed Page](home-page.png)
+*(Project will be deployed soon)*
 
 ---
 
@@ -34,7 +22,7 @@ Coming Soon...
 ✔ Upload images and videos
 ✔ Like posts functionality
 ✔ Real-time updates for posts and likes
-✔ Auto authentication on refresh
+✔ Auto authenticate user on refresh
 ✔ Responsive UI
 
 ---
@@ -75,31 +63,31 @@ src
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone the repository
+### Clone the repository
 
 ```
-git clone https://github.com/Priyansh-Chandravanshi/LinkedIn-clone.git
+git clone https://github.com/Priyansh-Chandravanshi/linkedin-clone.git
 ```
 
-### 2️⃣ Navigate to project folder
+### Navigate to project folder
 
 ```
 cd linkedin-clone
 ```
 
-### 3️⃣ Install dependencies
+### Install dependencies
 
 ```
 npm install
 ```
 
-### 4️⃣ Run the development server
+### Run the development server
 
 ```
 npm start
 ```
 
-Open browser:
+Open in browser
 
 ```
 http://localhost:3000
@@ -109,10 +97,9 @@ http://localhost:3000
 
 ## 🔑 Firebase Setup
 
-1. Go to **Firebase Console**
-2. Create a new project
-3. Add a **Web App**
-4. Copy Firebase configuration
+1. Create a Firebase project
+2. Add a Web App
+3. Copy Firebase configuration
 
 Paste it inside:
 
@@ -135,11 +122,7 @@ const firebaseConfig = {
 export default firebaseConfig;
 ```
 
-Enable **Google Authentication** in Firebase:
-
-```
-Firebase Console → Authentication → Sign-in Method → Enable Google
-```
+Enable **Google Authentication** in Firebase Console.
 
 ---
 
