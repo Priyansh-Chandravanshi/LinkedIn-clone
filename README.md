@@ -1,78 +1,176 @@
-# LinkedIn Clone
+# LinkedIn Clone 🚀
 
-![LinkedIn Clone Demo](linkedin-gif.gif)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge\&logo=google-chrome)](https://your-demo-link.com)
 
-**_Built using React JS, Redux, Firebase & Styled-Components_** within a week. My first project after learning React JS referencing a tutorial on YouTube by _'Clever Programmer'_. Added some features apart from the tutorial on my own like:
+![LinkedIn Clone Demo](linkedin-demo.gif)
 
--   Post like functionality
--   Mobile responsiveness
+A **LinkedIn Clone web application** built using **React.js, Redux, Firebase, and Styled Components**.
+This project replicates core LinkedIn features such as authentication, creating posts, sharing media, and interacting with posts.
 
-## Features and Fuctionality
+---
 
--   Login using Google (Firebase Authentication)
--   Create a new post
--   Share photos and videos (React player for videos)
--   Like posts
--   Realtime update likes and posts
--   Auto authenticate user on refresh
--   Sign Out
+## 🌐 Live Demo
 
-## How to build your own..?
+Coming Soon...
 
-1. Clone this repo
-1. Install all the dependencies
-    ```bash
-    npm i
-    ```
-1. Setup Firebase
+*(The project will be deployed soon)*
 
-    - Create Firebase account
-    - Create a new project
-    - Create a web app for that
-    - Copy your config from there
+---
 
-        - Select config option
-        - Paste those config inside firebase/config.js file
+## 📸 Project Preview
 
-    - Setup authentication using Google
+### Login Page
 
-1. Tweak code as you like
-1. Let's build the optimized version
+![Login Page](login-page.png)
 
-    ```bash
-    npm run build
-    ```
+### Feed Page
 
-1. **Now for hosting on Firebase lets config Firebase locally**
+![Feed Page](home-page.png)
 
-    - Install Firebase CLI
-    - Login to Firebase
+---
 
-        ```bash
-        firebase login
-        ```
+## ✨ Features
 
-    - Initialize Firebase
+✔ Google Authentication using Firebase
+✔ Create and share posts
+✔ Upload images and videos
+✔ Like posts functionality
+✔ Real-time updates for posts and likes
+✔ Auto authentication on refresh
+✔ Responsive UI
 
-        ```bash
-        firebase init
-        ```
+---
 
-    - Select hosting in the menu
-    - Select your respective project from the list
-    - Select 'build' as your hosting directory and other options as you want
-    - Let's deploy our clone and make it live
+## 🛠 Tech Stack
 
-        ```bash
-        firebase deploy
-        ```
+### Frontend
 
-**That's it our clone is up and running share it now**
+* React.js ⚛️
+* Redux
+* Styled Components
+* JavaScript
+* HTML5
+* CSS3
 
-## Future Plans
+### Backend / Services
 
--   Might add more login methods
--   Post deleting functionality
--   Add comments on post
+* Firebase Authentication 🔥
+* Firebase Firestore
+* Firebase Storage
 
-**_NOTE: PLEASE LET ME KNOW IF YOU DISCOVERED ANY BUG OR YOU HAVE ANY SUGGESTIONS_**
+---
+
+## 📂 Project Structure
+
+```
+src
+ ├── components
+ ├── actions
+ ├── reducers
+ ├── store
+ ├── firebase
+ ├── App.js
+ └── index.js
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```
+git clone https://github.com/Priyansh-Chandravanshi/LinkedIn-clone.git
+```
+
+### 2️⃣ Navigate to project folder
+
+```
+cd linkedin-clone
+```
+
+### 3️⃣ Install dependencies
+
+```
+npm install
+```
+
+### 4️⃣ Run the development server
+
+```
+npm start
+```
+
+Open browser:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🔑 Firebase Setup
+
+1. Go to **Firebase Console**
+2. Create a new project
+3. Add a **Web App**
+4. Copy Firebase configuration
+
+Paste it inside:
+
+```
+src/firebase/config.js
+```
+
+Example:
+
+```
+const firebaseConfig = {
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_BUCKET",
+  messagingSenderId: "YOUR_ID",
+  appId: "YOUR_APP_ID"
+};
+
+export default firebaseConfig;
+```
+
+Enable **Google Authentication** in Firebase:
+
+```
+Firebase Console → Authentication → Sign-in Method → Enable Google
+```
+
+---
+
+## 🚀 Build for Production
+
+```
+npm run build
+```
+
+---
+
+## 📈 Future Improvements
+
+* Comment system
+* User profile page
+* Notifications
+* Messaging system
+
+---
+
+## 👨‍💻 Author
+
+**Priyanshu Chandravanshi**
+
+GitHub:
+https://github.com/Priyansh-Chandravanshi
+
+---
+
+## ⭐ Support
+
+If you like this project, please consider giving it a **star ⭐ on GitHub**.
