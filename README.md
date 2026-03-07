@@ -1,7 +1,6 @@
 # LinkedIn Clone 🚀
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge\&logo=google-chrome)](https://your-demo-link.com)
-
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge\&logo=google-chrome)](https://linkedin-clone-dd006.web.app)
 A **LinkedIn Clone web application** built using **React.js, Redux, Firebase, and Styled Components**.
 This project replicates core LinkedIn features such as authentication, creating posts, sharing media, and interacting with posts.
 
