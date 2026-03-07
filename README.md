@@ -20,11 +20,9 @@ Coming Soon...
 ## 📸 Project Preview
 
 ### Login Page
-
 ![Login Page](login-page.png)
 
 ### Feed Page
-
 ![Feed Page](home-page.png)
 
 ---
